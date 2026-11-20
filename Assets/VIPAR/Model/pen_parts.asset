@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a7024f7a5499ac4fa7f3202788246a4, type: 3}
+  m_Name: pen_parts
+  m_EditorClassIdentifier: VipAr.Core::VipAr.DetectorProfile
+  id: pen_parts
+  displayName: pen parts model
+  model: {fileID: 5022602860645237092, guid: 8766fefdc9fbee841adcfef557164683, type: 3}
+  labels: {fileID: 4900000, guid: cf55596699d6cd141be4b5f611124769, type: 3}
+  format: 1
+  backend: 512
+  scoreThreshold: 0.5
+  iouThreshold: 0.5
